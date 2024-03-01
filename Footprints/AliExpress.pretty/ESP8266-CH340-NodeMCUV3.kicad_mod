@@ -68,18 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -15.5 -29)
-		(end 15.5 -29)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6f21c80b-a2f8-4e12-8f32-2e350f996ed1")
-	)
-	(fp_line
-		(start -15.5 29)
-		(end -15.5 -29)
+		(start -15.5 28)
+		(end -15.5 -28)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88,8 +78,18 @@
 		(uuid "e375eb07-ce4e-4d42-8a1f-2218937c46e8")
 	)
 	(fp_line
-		(start -15.5 29)
-		(end 15.5 29)
+		(start -14.5 -29)
+		(end 14.5 -29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f21c80b-a2f8-4e12-8f32-2e350f996ed1")
+	)
+	(fp_line
+		(start -14.5 29)
+		(end 14.5 29)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,8 +98,8 @@
 		(uuid "873eba32-3b67-47b7-9668-adb1b2fb30c4")
 	)
 	(fp_line
-		(start 14.478 -28.956)
-		(end 15.494 -27.686)
+		(start 13.716 -28.956)
+		(end 15.494 -26.67)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -108,14 +108,58 @@
 		(uuid "cc99c4fd-dad6-4848-a47b-5214c6f99c73")
 	)
 	(fp_line
-		(start 15.5 -29)
-		(end 15.5 29)
+		(start 15.5 -28)
+		(end 15.5 28)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "b080e430-a97a-4f60-97db-61748a5e65c8")
+	)
+	(fp_arc
+		(start -15.5 -28)
+		(mid -15.207107 -28.707107)
+		(end -14.5 -29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6737e91d-d31a-4cd9-bf75-92ec5b5da824")
+	)
+	(fp_arc
+		(start -14.5 29)
+		(mid -15.207107 28.707107)
+		(end -15.5 28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fcbdce17-9d65-4c53-a29d-9c85a22d66cc")
+	)
+	(fp_arc
+		(start 14.5 -29)
+		(mid 15.207107 -28.707107)
+		(end 15.5 -28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "462364ab-d890-4fca-a081-6a1efd87eb97")
+	)
+	(fp_arc
+		(start 15.5 28)
+		(mid 15.207107 28.707107)
+		(end 14.5 29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12e88295-d038-4723-9969-b4fa95f370c9")
 	)
 	(fp_rect
 		(start -15.748 -29.337)
