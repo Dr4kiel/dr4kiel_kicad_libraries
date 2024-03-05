@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -1.27 -22.86 90)
 				(length 2.54)
 				(name "G"
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 1.27 -22.86 90)
 				(length 2.54)
 				(name "G"
@@ -259,7 +259,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -3.81 -22.86 90)
 				(length 2.54)
 				(name "G"
@@ -313,7 +313,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 3.81 -22.86 90)
 				(length 2.54)
 				(name "G"
@@ -439,7 +439,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 6.35 -22.86 90)
 				(length 2.54)
 				(name "G"
