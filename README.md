@@ -7,3 +7,4 @@ This repository contains a bunch of schemas and fooprints for various electronic
 ## Components
 
 - NodeMCU Lua Lolin V3 Module ESP8266
+- GY-BM280
