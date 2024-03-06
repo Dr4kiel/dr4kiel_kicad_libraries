@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "AliExpress:ESP8266-CH340-NodeMCUV3"
-			(at -5.08 15.24 0)
+			(at -2.286 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -188,9 +188,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 8.89 180)
+				(at 3.81 16.51 270)
 				(length 2.54)
-				(name "D0"
+				(name "3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -205,10 +205,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 11.43 6.35 180)
+			(pin power_in line
+				(at 3.81 -22.86 90)
 				(length 2.54)
-				(name "D1"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -223,10 +223,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 11.43 3.81 180)
+			(pin output line
+				(at 11.43 -16.51 180)
 				(length 2.54)
-				(name "D2"
+				(name "D10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -241,10 +241,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 11.43 1.27 180)
+			(pin input line
+				(at 11.43 -13.97 180)
 				(length 2.54)
-				(name "D3"
+				(name "D9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -278,9 +278,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -1.27 180)
+				(at 11.43 -11.43 180)
 				(length 2.54)
-				(name "D4"
+				(name "D8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -296,9 +296,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 16.51 270)
+				(at 11.43 -8.89 180)
 				(length 2.54)
-				(name "3V"
+				(name "D7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -313,10 +313,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 3.81 -22.86 90)
+			(pin bidirectional line
+				(at 11.43 -6.35 180)
 				(length 2.54)
-				(name "G"
+				(name "D6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -349,10 +349,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 11.43 -6.35 180)
+			(pin power_in line
+				(at 6.35 -22.86 90)
 				(length 2.54)
-				(name "D6"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -368,9 +368,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -8.89 180)
+				(at 6.35 16.51 270)
 				(length 2.54)
-				(name "D7"
+				(name "3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -386,9 +386,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -11.43 180)
+				(at 11.43 -1.27 180)
 				(length 2.54)
-				(name "D8"
+				(name "D4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -403,10 +403,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 11.43 -13.97 180)
+			(pin bidirectional line
+				(at 11.43 1.27 180)
 				(length 2.54)
-				(name "RX"
+				(name "D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -421,10 +421,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 11.43 -16.51 180)
+			(pin bidirectional line
+				(at 11.43 3.81 180)
 				(length 2.54)
-				(name "TX"
+				(name "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -439,10 +439,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 6.35 -22.86 90)
+			(pin bidirectional line
+				(at 11.43 6.35 180)
 				(length 2.54)
-				(name "G"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -476,9 +476,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 16.51 270)
+				(at 11.43 8.89 180)
 				(length 2.54)
-				(name "3V"
+				(name "D0"
 					(effects
 						(font
 							(size 1.27 1.27)
